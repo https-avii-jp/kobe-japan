@@ -1,2 +1,0 @@
-# kobe-japan
-kobe-japan

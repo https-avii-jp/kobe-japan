@@ -1475,7 +1475,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .process_component {
@@ -3820,7 +3820,7 @@ a {
     min-height: 40px;
   }
 
-  .column, .column-2, .column-3, .column-4 {
+  .column, .column-2, .column-3, .column-4, .column-7, .column-8, .column-9, .column-10 {
     padding-bottom: 30px;
   }
 }
@@ -4173,6 +4173,11 @@ a {
   .image-3 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .column-7, .column-8, .column-9, .column-10 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

@@ -424,7 +424,7 @@ a {
 
 .container-large {
   width: 100%;
-  max-width: 70rem;
+  max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -808,8 +808,8 @@ a {
 
 .padding-global {
   padding-bottom: 60px;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .padding-large {
@@ -2699,9 +2699,7 @@ a {
   margin-top: -80px;
 }
 
-.footer-columns-2 {
-  flex-direction: column;
-  justify-content: flex-end;
+.footer-columns {
   align-items: flex-end;
   display: flex;
 }
@@ -2714,22 +2712,23 @@ a {
 }
 
 .footer-p.medium {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 15px;
   font-weight: 500;
 }
 
 .footer-p.bold {
   padding-top: 20px;
+  font-size: 1px;
 }
 
 .footer-location-image {
-  width: 487px;
+  width: 100%;
 }
 
 .footer-location-image.last {
-  width: 328px;
-  margin-top: 40px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .accordion-paragraph---brix {
@@ -2851,6 +2850,17 @@ a {
   display: flex;
   position: relative;
   transform: rotate(90deg);
+}
+
+.footer-heading {
+  padding-left: 10px;
+  font-family: Zen Kaku Gothic New, sans-serif;
+  font-size: 24px;
+}
+
+.bold-text {
+  font-size: 22px;
+  line-height: 38px;
 }
 
 @media screen and (max-width: 991px) {
@@ -4209,6 +4219,10 @@ a {
   align-self: center;
 }
 
+#w-node-b67d9f27-5cf0-bb04-ab12-6bd6fe99bff0-7cc1aeff, #w-node-b67d9f27-5cf0-bb04-ab12-6bd6fe99bff7-7cc1aeff {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
 #w-node-_76c583fa-a684-4691-2642-02d5d81bad41-7cc1af04, #w-node-_76c583fa-a684-4691-2642-02d5d81bad46-7cc1af04, #w-node-_76c583fa-a684-4691-2642-02d5d81bad4b-7cc1af04, #w-node-_76c583fa-a684-4691-2642-02d5d81bad50-7cc1af04, #w-node-_76c583fa-a684-4691-2642-02d5d81bad56-7cc1af04, #w-node-_76c583fa-a684-4691-2642-02d5d81bad5c-7cc1af04, #w-node-_76c583fa-a684-4691-2642-02d5d81bad62-7cc1af04 {
   justify-self: start;
 }
@@ -4270,7 +4284,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-_323df6eb-6c69-f4be-c2f8-a3605cc88c18-7cc1aeff {
+  #w-node-_323df6eb-6c69-f4be-c2f8-a3605cc88c18-7cc1aeff, #w-node-b67d9f27-5cf0-bb04-ab12-6bd6fe99bfef-7cc1aeff, #w-node-b67d9f27-5cf0-bb04-ab12-6bd6fe99bff6-7cc1aeff {
     align-self: center;
   }
 }
